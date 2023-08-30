@@ -49,4 +49,28 @@ header{
 
         /* Inicio da estilização da sessão principal */
 
+.sessaoPrincipal{
+    background-image: url(/assets/recepcao.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+
+    display: flex;
+}
+
+.textoPrincipal{
+    font-size: 36px;
+    color: white;
+
+    margin: auto 0;
+    display: flex;
+    
+}
+
         /* Final  da estilização da sessão principal */
+
+        /* Inicio da estilização da sessão sobre a clinica */
+
+        
+        /* Final  da estilização da sessão sobre a clinica */
