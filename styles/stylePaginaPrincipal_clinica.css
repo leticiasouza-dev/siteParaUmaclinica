@@ -9,7 +9,7 @@
     --cor-branca: white;
 }
 
-        /* Inicío da estilização do Header e do NavBar da página */
+        /*estilização do Header e do NavBar da página */
 
 header{
     background-color: #00cad1;
@@ -44,10 +44,11 @@ header{
     padding-left: 15px;
 }
 
-        /* Final da  estilização do Header e do NavBar da página */
+main{
+    color: #000000ab;
+}
 
-
-        /* Inicio da estilização da sessão principal */
+        /*estilização da sessão principal */
 
 .sessaoPrincipal{
     background-image: url(/assets/recepcao.png);
@@ -68,9 +69,41 @@ header{
     
 }
 
-        /* Final  da estilização da sessão principal */
+/* estilização da sessao sobre a clinica */
 
-        /* Inicio da estilização da sessão sobre a clinica */
+.sessaoSobre-clinica{
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
-        
-        /* Final  da estilização da sessão sobre a clinica */
+h2,h3{
+    color: #0000009c;
+}
+
+.sessaoSobre-clinica > h2{
+    margin: 3rem 0 1rem 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1.9rem 0 1.9rem 0;
+}
+
+.paragrafo-sobre{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+   
+.informacoes-clinica{
+    margin-left: 2rem;
+}
+
+.informacoes-clinica ul > li{
+    text-align: start;
+}
