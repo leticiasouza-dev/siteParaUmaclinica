@@ -7,6 +7,7 @@
 
 :root{
     --cor-branca: white;
+    --cor-cinza-titulos_principais: #0000009c;
 }
 
         /*estilização do Header e do NavBar da página */
@@ -98,6 +99,7 @@ p{
 .paragrafo-sobre{
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    margin-left: -5rem;
 }
    
 .informacoes-clinica{
@@ -160,4 +162,33 @@ p{
 
     margin: 0 auto;
     padding: 1rem;
+}
+
+/* estilização contato */
+
+.sessao-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.sessao-contato > ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sessao-contato > ul > li {
+    margin-bottom: 1rem;
+}
+
+.sessao-contato > ul > li span{
+     color: var(--cor-cinza-titulos_principais);
+     font-weight: bold;
+}
+
+.sessao-contato iframe{
+    width: 80%;
 }
