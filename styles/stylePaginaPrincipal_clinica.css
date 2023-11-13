@@ -9,7 +9,7 @@
     --cor-branca: white;
 }
 
-        /* Inicío da estilização do Header e do NavBar da página */
+        /*estilização do Header e do NavBar da página */
 
 header{
     background-color: #00cad1;
@@ -44,10 +44,11 @@ header{
     padding-left: 15px;
 }
 
-        /* Final da  estilização do Header e do NavBar da página */
+main{
+    color: #000000ab;
+}
 
-
-        /* Inicio da estilização da sessão principal */
+        /*estilização da sessão principal */
 
 .sessaoPrincipal{
     background-image: url(/assets/recepcao.png);
@@ -68,8 +69,9 @@ header{
     
 }
 
-        /* Final  da estilização da sessão principal */
+/* estilização da sessao sobre a clinica */
 
+<<<<<<< HEAD
         /* Inicio da estilização da sessão sobre a clinica */
 .sessaoSobre-clinica{
     text-align: center;
@@ -105,3 +107,95 @@ header{
     align-items: baseline;
 }
         /* Final  da estilização da sessão sobre a clinica */
+=======
+.sessaoSobre-clinica{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h2,h3{
+    color: #0000009c;
+    margin: 2rem 0 1rem 0;
+}
+
+p{
+    font-size: 1.1rem; 
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1.9rem 0 1.9rem 0;
+}
+
+.paragrafo-sobre{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+   
+.informacoes-clinica{
+    margin-left: 2rem;
+}
+
+.informacoes-clinica ul > li{
+    text-align: start;
+}
+
+/* estilização da especializades */
+
+.especialidades-medicas{
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    flex-wrap: wrap;
+    /* align-items: ; */
+}
+
+.especialidades-medicas h3{
+    font-size: 1.2rem;
+}
+
+.especialidades{
+    display: flex;
+    justify-content: space-around;
+
+    margin: 2rem;
+}
+
+.especialidades > div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    box-shadow: 0px -1px 9px 0px rgba(66, 66, 66, 0.612);
+
+}
+
+.especialidades div > p{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.especialidades div > img{
+    width: 25vw;
+}
+
+.especialidades-medicas > a{
+    color: var(--cor-branca);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+
+    border: 1px solid #00cad1;
+    background-color: #00cad1;
+
+    margin: 0 auto;
+    padding: 1rem;
+}
+>>>>>>> 4e22586cc1d5635b10bde60405c7191ebe24fe09
