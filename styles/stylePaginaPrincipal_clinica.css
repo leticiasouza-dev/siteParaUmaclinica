@@ -71,6 +71,37 @@ header{
         /* Final  da estilização da sessão principal */
 
         /* Inicio da estilização da sessão sobre a clinica */
-
+.sessaoSobre-clinica{
+    text-align: center;
+    margin: 40px 0;
+    /* display: flex;
+    justify-content: center; */
+}
         
+.divSobre-clinica{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.divInformacoes-clinica{
+    display: flex;
+}
+
+.divSobre-clinica > img{
+    display: flex;
+    height: 40vh;
+}
+
+.divSobre-clinica > p{
+    
+}
+
+.listaSobre-clinica{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
         /* Final  da estilização da sessão sobre a clinica */
