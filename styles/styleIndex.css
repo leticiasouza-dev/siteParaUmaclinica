@@ -28,9 +28,6 @@ header{
     flex-wrap: wrap;
 }
 
-.navBar{
-    display: flex;
-}
 
 .links-navegacao{
     display: flex;
