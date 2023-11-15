@@ -50,4 +50,36 @@
     .textoPrincipal > h1{
         font-size: 27px;
     }
+
+    /* estilização responsiva para celular da sessão sobre a clinica */
+
+    .sessaoSobre-clinica{
+        padding-top: 1.5rem;
+    }
+
+    .sessaoSobre-clinica > p{
+        font-size: 0.9rem;
+        margin: 0 0.8rem;
+    }
+
+    .container > img{
+        display: none;
+    }
+
+    .paragrafo-sobre{
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        margin: 0;
+        padding-bottom: 1rem;
+    }
+
+    .informacoes-clinica{
+        margin: 0;
+    }
+
+    .informacoes-clinica > ul > li{
+        font-size: 0.9rem;
+        margin: 0 2.8rem;
+    }
+
 }
