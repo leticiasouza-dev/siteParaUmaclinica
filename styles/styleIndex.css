@@ -130,11 +130,11 @@ p{
 .especialidades{
     display: flex;
     justify-content: space-around;
-
+    flex-wrap: wrap;
     margin: 2rem;
 }
 
-.especialidades > div{
+.especialidades  div{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

@@ -82,4 +82,38 @@
         margin: 0 2.8rem;
     }
 
+    /* estilização responsiva para celular da sessão de especialidades médicas */
+
+    .especialidades-medicas > h3{
+        font-size: 1rem;
+        margin-top: 1.2rem;
+    }
+
+    .especialidades-medicas > p{
+        font-size: 0.9rem;
+        margin: 0 0.8rem;
+        text-align: center;
+    }
+
+    .especialidades{
+        margin-top: 0;
+    }
+
+    .especialidades div{
+        width: 100%;
+        margin-top: 2.5rem;
+    }
+
+    .especialidades div > p{
+        padding: 1rem;
+    }
+
+    .especialidades div > img{
+        width: 100%;
+    }
+
+    .especialidades-medicas a{
+        padding: 0.6rem;
+        width: 40vw;
+    }
 }
