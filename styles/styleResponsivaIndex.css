@@ -129,4 +129,15 @@
     .sessao-contato iframe{
         height: 45vh;
     }
+
+    /* estilização responsiva para celular do radapé da página */
+    footer img{
+        width: 40vw;
+    }
+
+    footer ul > li{
+        padding: 0 0.6rem 1rem 0.6rem;
+        text-align: center;
+        line-height: 1.2rem;
+    }
 }
