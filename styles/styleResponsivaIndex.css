@@ -1,6 +1,6 @@
 @media screen and (max-width: 425px){
     
-    /* estilização responsiva para celular da header */
+    /* estilização responsiva para celular da header da página home*/
 
     header{
         padding: 0 0;
@@ -31,18 +31,14 @@
         padding: 0;
     }
 
-    /* estilização responsiva para celular da sessão principal */
+    /* estilização responsiva para celular da sessão principal da página home*/
 
     .sessaoPrincipal{
         width: 100%;
         height: 13rem;
-
-        position: relative;
     }
 
     .textoPrincipal{
-        position: absolute;
-
         top: 5rem;
         left: 1rem;
     }
@@ -51,7 +47,7 @@
         font-size: 27px;
     }
 
-    /* estilização responsiva para celular da sessão sobre a clinica */
+    /* estilização responsiva para celular da sessão sobre a clinica da página home*/
 
     .sessaoSobre-clinica{
         padding-top: 1.5rem;
@@ -82,7 +78,7 @@
         margin: 0 2.8rem;
     }
 
-    /* estilização responsiva para celular da sessão de especialidades médicas */
+    /* estilização responsiva para celular da sessão de especialidades médicas  da página home*/
 
     .especialidades-medicas > h3{
         font-size: 1rem;
@@ -117,7 +113,7 @@
         width: 40vw;
     }
 
-    /* estilização responsiva para celular da sessão contato */
+    /* estilização responsiva para celular da sessão contato da págin home*/
 
     .sessao-contato > ul > li {
         padding: 0 1rem;
@@ -130,7 +126,7 @@
         height: 45vh;
     }
 
-    /* estilização responsiva para celular do rodapé da página */
+    /* estilização responsiva para celular do rodapé da página home*/
     footer img{
         width: 40vw;
     }
@@ -144,12 +140,19 @@
 
 @media screen and (min-width: 425px) and (max-width: 768px){
    
-    header{
-
+    /* estilização responsiva para tablet da sessão principal da página home  */
+ 
+    .sessaoPrincipal{
+        width: 100%;
+        height: 33vh;
     }
 
-    .navBar{
-
+    .textoPrincipal{
+        color: white;
+    
+        top: 6rem;
+        left: 1rem;
     }
+    
 }
 
