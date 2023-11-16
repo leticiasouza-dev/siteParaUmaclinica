@@ -153,6 +153,19 @@
         top: 6rem;
         left: 1rem;
     }
+
+    /* estilização responsiva para tablet da sessão sobre a clínica da página home */
     
+    .sessaoSobre-clinica > p{
+        padding: 0 5rem;
+    }
+
+    .sessaoSobre-clinica img{
+        display: none;
+    }
+    
+    .paragrafo-sobre{
+        margin-bottom: 1.5rem;
+    }
 }
 
