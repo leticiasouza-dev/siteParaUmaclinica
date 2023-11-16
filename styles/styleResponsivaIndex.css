@@ -187,5 +187,18 @@
     .especialidades div > img{
         width: 41.3vw;
     }
+
+    /* estilização responsiva para tablet da sessão de contato da página home */
+
+    .sessao-contato > ul > li {
+        padding: 0 5rem 1rem 5rem;
+        font-size: 0.9rem;
+        text-align: center;
+        line-height: 1.3rem;
+    }
+
+    .sessao-contato iframe{
+        width: 95%;
+    }
 }
 
