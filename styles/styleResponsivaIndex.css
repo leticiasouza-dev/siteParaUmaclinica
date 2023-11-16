@@ -167,5 +167,25 @@
     .paragrafo-sobre{
         margin-bottom: 1.5rem;
     }
+
+    /* estilização responsiva para tablet da sessão de especialidade médicas da página home */
+
+    .especialidades-medicas > p{
+        padding: 0 5rem;
+    }
+
+    .especialidades {
+        margin-bottom: 0;
+    }
+
+    .especialidades > div{
+        width: 45%;
+
+        margin-bottom: 3rem;
+    }
+
+    .especialidades div > img{
+        width: 41.3vw;
+    }
 }
 
