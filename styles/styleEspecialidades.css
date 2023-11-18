@@ -47,6 +47,10 @@ main{
 }
 
 
+section{
+    border: 2px solid red;
+}
+
 
 footer{
     background-color: rgb(12, 110, 113);
