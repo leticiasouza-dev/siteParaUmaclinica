@@ -55,12 +55,80 @@ main{
 }
 
 .lista-especialidades ul > li{
+    font-weight: bold;
     border-bottom: 0.1rem solid #00cad1;
+}
+
+.sessao-especialidades{
+    margin: 2rem 0;
+}
+
+.sessao-especialidades > h1{
+    text-align: center;
+}
+
+.sessao-ortopedia{
+    width: 90%;
+
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.sessao-ortopedia > h3, p{
+    text-align: center;
+}
+
+.sessao-ortopedia h3{
+    padding: 0.8rem 0;
+}
+
+.sessao-ortopedia p{
+    width: 40%;
+    margin: auto;
+}
+
+.horarios-atendimentos{
+    display: flex;
+
+    margin: 1rem
+}
+
+.horarios-atendimentos img{
+    width: 25vw;
+}
+
+.horarios-atendimentos > table{
+    /* border: 1px solid blue; */
+    width: 100%;
+    border-collapse: collapse; /*usado para retirar as linhas parentes na tabela*/
+}
+
+.horarios-atendimentos table > thead{
+    background-color: #00cad1;
+}
+
+.horarios-atendimentos table > thead th{
+    color: white;
+    text-align: start;
+
+    padding: 1rem;
+}
+
+.horarios-atendimentos table > tbody tr:nth-of-type(odd){
+    background-color: rgb(205, 205, 205);
+}
+
+.horarios-atendimentos table > tbody td{
+    padding: 0 1rem;
+}
+
+.horarios-atendimentos table > tr,th, td{
+    /* border: 1px solid yellow; */
 }
 
 
 section{
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 
