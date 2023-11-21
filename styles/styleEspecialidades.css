@@ -126,6 +126,44 @@ main{
     /* border: 1px solid yellow; */
 }
 
+.sessao-pediatria{
+    width: 90%;
+
+    padding: 2rem 0;
+    margin: 0 auto;
+}
+
+.sessao-pediatria  h3{
+    text-align: center;
+
+    padding: 0.8rem 0;
+}
+
+.sessao-pediatria p{
+    width: 60%;
+
+    margin: 0 auto;
+}
+
+.sessao-geriatria{
+    width: 90%;
+
+    padding: 2rem 0;
+    margin: 0 auto;
+}
+
+.sessao-geriatria h3{
+    text-align: center;
+
+    padding: 0.8rem 0;
+}
+
+.sessao-geriatria p{
+    width: 60%;
+
+    margin: 0 auto;
+}
+
 
 section{
     /* border: 2px solid red; */
