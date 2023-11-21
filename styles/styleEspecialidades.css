@@ -164,6 +164,44 @@ main{
     margin: 0 auto;
 }
 
+.sessao-psicologia{
+    width: 90%;
+
+    padding: 2rem 0;
+    margin: 0 auto;
+}
+
+.sessao-psicologia h3{
+    text-align: center;
+
+    padding: 0.8rem 0;
+}
+
+.sessao-psicologia p{
+    width: 40%;
+
+    margin: 0 auto;
+}
+
+.sessao-fisioterapia{
+    width: 90%;
+
+    padding: 2rem 0;
+    margin: 0 auto;
+}
+
+.sessao-fisioterapia h3{
+    text-align: center;
+
+    padding: 0.8rem 0;
+}
+
+.sessao-fisioterapia p{
+    width: 60%;
+
+    margin: 0 auto;
+}
+
 
 section{
     /* border: 2px solid red; */
