@@ -1,0 +1,64 @@
+@media screen and (max-width: 425px){
+
+    /* estilização responsiva para celular da header da página de especialidades*/
+
+    header{
+        padding: 0 0;
+    }
+
+    hr{
+        width: 90%;
+        margin: 0 auto;
+        background-color: #00cad1;
+    }
+
+    .logo{
+        margin: 0 auto;
+    }
+
+    .navBar{
+        width: 100%;
+        margin: 0.7rem 0;
+    }
+
+    .links-navegacao{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    .links-navegacao a{
+        padding: 0;
+    }
+
+    /* estilização da lista de especialidades */
+
+    .lista-especialidades ul{
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+
+    .lista-especialidades ul > li{
+        margin-bottom: 1rem;
+    }
+
+    /* estlização da sessão de especialidades */
+
+    .sessao-especialidades h1{
+        font-size: 1.2rem;
+    }
+
+    .sessao-especialidades img{
+        display: none;
+    }
+
+    .sessao-especialidades table{
+        width: 100%;
+    }
+
+    .sessao-ortopedia{
+        width: 100%;
+    }
+
+}
